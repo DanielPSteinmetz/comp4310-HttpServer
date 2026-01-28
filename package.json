@@ -1,0 +1,23 @@
+{
+  "name": "httpserver",
+  "version": "1.0.0",
+  "description": "Http server for WevDevII",
+  "main": "lib/server.js",
+  "scripts": {
+    "start": "npm run build && node .",
+    "start:watch": "tsx watch src/server.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Steinmetz",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^25.0.10",
+    "jest": "^30.2.0",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "winston": "^3.19.0"
+  }
+}
